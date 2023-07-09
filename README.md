@@ -5,6 +5,8 @@
 A browser extension to view, edit, format, repair, query, transform, and validate JSON directly on the browser.
 It uses the powerful [svelte-jsoneditor](https://github.com/josdejong/svelte-jsoneditor/) by Jos de Jong and the Manifest V3 for enhanced security, privacy, and performance.
 
+**[Watch the video!](https://youtu.be/WnsLXRYOO0g)**
+
 ## Usage
 
 Open web pages with JSON content or JSON files directly on the browser. 
@@ -33,7 +35,7 @@ TBD
 
 TBD
 
-## Firefox
+### Firefox
 
 TBD
 
