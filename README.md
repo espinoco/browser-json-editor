@@ -7,9 +7,23 @@ It uses the powerful [svelte-jsoneditor](https://github.com/josdejong/svelte-jso
 
 **[Watch the video!](https://youtu.be/WnsLXRYOO0g)**
 
+## Installation
+
+- Chrome TBD
+- Edge TBD
+- Firefox 
+    - Go to https://addons.mozilla.org/addon/browser-json-editor/ and install the add-on.
+    - Go to `about:addons`.
+    - Click on the extension.
+    - Click on "Permissions" and enable the permission for all sites. Otherwise, the extension won't work. Refer to "Why is the access to all URL sites needed?" for more info.
+    - Disable the built-in JSON viewer.
+        - Go to `about:config`.
+        - In search, paste `devtools.jsonview.enabled`.
+        - Set the preference to "false" by clicking the "Toggle" button.
+
 ## Usage
 
-Open web pages with JSON content or JSON files directly on the browser. 
+With the browser, open web pages with JSON content or JSON files directly on the browser.
 
 Features:
 * View JSON as a tree. The JSON tree view utilizes right-click to open the context menu, and double-click to start editing a key or value. It supports copy/paste from and to the system clipboard.
@@ -23,22 +37,50 @@ Features:
 * Sort, filter, and transform JSON
 * Handle large JSON documents up to 512 MB
 
-Make sure to disable any other JSON viewing built-in into the browser or other JSON viewer extensions.
+Make sure to disable any other JSON viewing built-in into the browser or other browser extension JSON viewer/editors.
 
-## Installation
 
-### Chrome
+### Why is the access to all URL sites needed?
 
-TBD
-
-### Microsoft Edge
-
-TBD
-
-### Firefox
-
-TBD
+To render the JSON Editor UI on any web pages with JSON content or JSON files opened with the browser, the content script execution needs to happen on all URLs.
 
 ## Development
 
-TBD
+### Build
+
+- `make mozilla` to build the Mozilla compatible extension.
+- `make chromium` to build the Chromium compatible extension.
+- `make package` to create packaged .zip files for distribution in the respective browser stores.
+
+After making changes to the extension's sources, build the extension again.
+
+### Development on Chrome
+
+- Go to `chrome://extensions/`
+- Enable the "Developer mode"
+- Click on "Load unpacked"
+- Select the extension's `build-chromium/` folder.
+- After making changes to the extension's sources, build the extension again and click on "Reload".
+
+### Development on Microsoft Edge
+
+- Go to `edge://extensions/`
+- Enable the "Developer mode"
+- Click on "Load unpacked"
+- Select the extension's `build-chromium/` folder.
+- After making changes to the extension's sources, build the extension again and click on "Reload".
+
+### Development on Mozilla Firefox
+
+- Go to `about:debugging`.
+- Click on "This Firefox"
+- Click on "Load Temporary Add-on"
+- Open the `build-mozilla/manifest.json` file.
+- Go to `about:addons`.
+- Click on the extension.
+- Click on "Permissions" and enable the permission for all sites. Otherwise, the extension won't work.
+- Disable the built-in JSON viewer.
+    - Go to `about:config`.
+    - In search, paste `devtools.jsonview.enabled`.
+    - Set the preference to "false" by clicking the "Toggle" button.
+- After making changes to the extension's sources, build the extension again and click on "Reload".
