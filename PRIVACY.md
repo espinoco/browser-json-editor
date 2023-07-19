@@ -1,7 +1,29 @@
 # JSON Editor Privacy Policy
 
-This policy is effective Jul 01, 2023
+The JSON Editor's privacy policy is really simple: we don't collect or store any of your data, or track your usage in any way, and will never do so.
 
-JSON Editor does not collect any personal data. JSON Editor does not share any personal data with third parties. There are no exceptions to this policy.
+## We don't collect any "personal data"
 
-Personal data is any information that relates to an identified or identifiable living individual. Different pieces of information, that when collected together can lead to the identification of a particular person, also constitute personal data.
+JSON Editor does not collect any "personal data" and will never do it. If information isn’t collected, it can’t be stolen, demanded, leaked, or abused.
+
+## How JSON Editor defines "personal data"
+
+JSON Editor considers any information about you or your behavior that can be traced back to you as "personal data".
+
+## How is JSON Editor free without using "personal data"
+
+JSON Editor doesn't generate any kind of revenue. It is "Open Source" and "Free as in beer".
+
+## JSON Editor doesn't disclose or sell your "personal data"
+
+JSON Editor does not share any "personal data" with third parties. JSON Editor uses no intermediaries.
+
+## How JSON Editor responds to governmental requests for data
+
+They can’t request what we don’t have. JSON Editor is not likely to receive requests by governments to hand over user data, simply because JSON Editor doesn’t have any.
+
+## We don't collect any other data
+
+JSON contents are local to your system and never leave your system.
+
+## There are no exceptions to this policy
