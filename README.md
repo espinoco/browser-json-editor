@@ -23,7 +23,7 @@ It uses the powerful [svelte-jsoneditor](https://github.com/josdejong/svelte-jso
 
 ## Usage
 
-With the browser, open web pages with JSON content or JSON files directly on the browser.
+Open web pages with JSON content or JSON files directly on the browser.
 
 Features:
 * View JSON as a tree. The JSON tree view utilizes right-click to open the context menu, and double-click to start editing a key or value. It supports copy/paste from and to the system clipboard.
@@ -43,6 +43,12 @@ Make sure to disable any other JSON viewing built-in into the browser or other b
 ### Why is the access to all URL sites needed?
 
 To render the JSON Editor UI on any web pages with JSON content or JSON files opened with the browser, the content script execution needs to happen on all URLs.
+
+### What data do you collect?
+
+JSON Editor does not collect or store any of your data, or track your usage in any way, and will never do so.
+
+Check the full [JSON Editor's privacy policy](https://github.com/croespino/browser-json-editor/blob/master/PRIVACY.md).
 
 ## Development
 
