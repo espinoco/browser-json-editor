@@ -9,8 +9,19 @@ It uses the powerful [svelte-jsoneditor](https://github.com/josdejong/svelte-jso
 
 ## Installation
 
-- Chrome TBD
-- Edge TBD
+- Chrome 
+    - Go to https://chrome.google.com/webstore/detail/json-editor/jcamcakkifmbkjcfejgboieeliaomkab
+    - To allow access to local JSON files
+        - Go to `chrome://extensions/`
+        - Click on "Details" for JSON Editor
+        - Click on "Allow access to file URLs"
+- Edge 
+    - Go to https://chrome.google.com/webstore/detail/json-editor/jcamcakkifmbkjcfejgboieeliaomkab
+    - Click on "Get extension" and then on "Add extension"
+    - To allow access to local JSON files
+        - Go to `edge://extension`
+        - Click on "Details" for JSON Editor
+        - Click on "Allow access to file URLs"
 - Firefox 
     - Go to https://addons.mozilla.org/addon/browser-json-editor/ and install the add-on.
     - Go to `about:addons`.
