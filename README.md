@@ -16,8 +16,8 @@ It uses the powerful [svelte-jsoneditor](https://github.com/josdejong/svelte-jso
         - Click on "Details" for JSON Editor
         - Click on "Allow access to file URLs"
 - Edge 
-    - Go to https://chrome.google.com/webstore/detail/json-editor/jcamcakkifmbkjcfejgboieeliaomkab
-    - Click on "Get extension" and then on "Add extension"
+    - Go to https://microsoftedge.microsoft.com/addons/detail/json-editor/neoimeagehobomgpgmdlcahdjlcjimla
+    - Click on "Get"
     - To allow access to local JSON files
         - Go to `edge://extension`
         - Click on "Details" for JSON Editor
